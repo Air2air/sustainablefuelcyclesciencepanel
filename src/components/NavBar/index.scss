@@ -1,17 +1,80 @@
-$logo-size: 130px;
-$navbar-height: 90px;
-
-.navbar-container {
+@import '../../../scss/variables';
+$font-navbar:$font-title;
+$navbar-height:60px;
+.navigation {
   position: relative;
-  width: 100%;
-  height: $navbar-height;
-  padding: 0px;
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-  // background: #203060;
+  margin: 0;
+  ul.nav {
+    position: relative;
+    @include transition;
+    height: $navbar-height;
+    margin-top: 0;
+    text-align: center;
+    li.nav-item {
+      font-family: $font-navbar;
+      text-align: center;
+      padding: 0;
+      a {
+        height: $navbar-height;
+        line-height: $navbar-height * 1.3;
+        padding: 0;
+      }
+    }
+    @include transition;
+  }
 }
 
-.sustainable-logo {
-  width: $logo-size;
+
+/*----------------  RESPONSIVE --------------- */
+
+$nav-panel-height-sm:60px;
+.navigation {
+  height: $nav-panel-height-sm;
+  ul.nav {
+    top: $nav-panel-height-sm - $navbar-height;
+    height: $navbar-height;
+    li.nav-item {
+      height: $navbar-height;
+      font-size: 1em;
+    }
+  }
+}
+
+$nav-panel-height-xs:60px;
+@include breakpoint-sm {
+  .navigation {
+    height: $nav-panel-height-xs;
+    ul.nav {
+      top: $nav-panel-height-xs - $navbar-height;
+      height: $navbar-height;
+      li.nav-item {
+        height: $navbar-height;
+        font-size: 1.2em;
+      }
+    }
+  }
+}
+
+
+/*---------- Colors-----------*/
+
+$navbar-color:darken($base-color,10%);
+$navbar-hover-color:lighten($navbar-color, 5%);
+$text-navbar:white;
+.navigation {
+  background: $navbar-color;
+  ul.nav {
+    color: $text-navbar;
+    li.nav-item {
+      //background: red;
+      a.nav-link {
+        //background: gold;
+        color: $text-navbar;
+        text-shadow: 0 0 6px darken($navbar-color, 30%);
+        &:hover {
+          background: $navbar-hover-color;
+        }
+      }
+    }
+  }
 }
