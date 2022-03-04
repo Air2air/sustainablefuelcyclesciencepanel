@@ -1,0 +1,54 @@
+$base-color: #2362ad;
+$base-color-light:lighten($base-color, 10%);
+$base-color-lighter:lighten($base-color, 20%);
+$contrast-color: $base-color-light;
+$accent-color: #00bff3;
+$white: #ffffff;
+$black:#000000;
+
+
+
+/* ------- RESULTS PANELS ---------*/
+
+$panel-color: white;
+$panel-hover-color: lighten(desaturate($base-color, 20%), 57%);
+$panel-dark-color: lighten(desaturate($base-color, 20%), 55%);
+$panel-dark-hover-color: darken($panel-dark-color, 2%);
+
+/* ------- Classes ---------*/
+
+$background-color: white;
+$border-color: lighten($base-color, 10%);
+
+/* ------- Classes ---------*/
+
+$btn-default-color:$base-color; //lighten(desaturate($base-color, 30%), 15%);
+
+/* ------- HEADINGS ---------*/
+
+$heading-color: darken($base-color, 10%);
+$heading-color-light: lighten(desaturate($base-color, 30%), 15%);
+$heading-color-dark: darken(desaturate($base-color, 30%), 10%);
+
+/* ------- Text ---------*/
+
+$text-color: desaturate($base-color, 45%);
+$text-color-light: lighten($text-color, 20%);
+
+/* ------- Links ---------*/
+
+$link-color:darken($base-color, 20%);
+$link-hover-color:darken($base-color, 20%);
+
+/* ------- Icons ---------*/
+
+$icon-color: transparentize($text-color, 0.6);
+$icon-hover-color: transparentize($text-color, 0);
+
+/* ------- BOOTSTRAP  ---------- */
+
+$primary: #0074ff;
+$success: #4e975b;
+$info: #28828f;
+$warning: #c87b3d;
+$danger: #c63720;

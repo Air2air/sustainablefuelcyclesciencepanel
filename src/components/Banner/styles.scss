@@ -1,0 +1,99 @@
+
+@import "../../scss/_variables.scss";
+
+
+$messaging-line-height: 1.2em;
+$messaging-letter-spacing: -0.04em;
+$banner-xs-height: 120px;
+$banner-sm-height: 160px;
+$font-title:'Roboto Condensed', Arial, Helvetica, sans-serif;
+$font-subtitle:  'Roboto', Arial, Helvetica, sans-serif;
+$font-text:'Merriweather', serif;
+
+$font-title: $font-text;
+
+/* ------- GLOBE HEADER ---------*/
+
+$globe-color-left: darken($base-color, 30%);
+$globe-color-right: lighten($base-color, 30%);
+
+.header-banner {
+  position: relative;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  .message {
+    font-weight: 300;
+    letter-spacing: $messaging-letter-spacing;
+    padding: 0 20% 0 20%;
+    text-align: center;
+  }
+}
+
+
+/*----------- RESPONSIVE -------------*/
+
+.header-banner {
+  @include breakpoint-xs {
+    height: $banner-xs-height;
+  }
+  @include breakpoint-sm {
+    height: $banner-sm-height;
+  }
+  .message {
+    @include breakpoint-xs {
+      @include font-title;
+      font-size: 1.3em;
+      line-height: $messaging-line-height;
+    }
+    @include breakpoint-sm {
+      @include font-title;
+      font-size: 1.4em;
+      line-height: $messaging-line-height;
+    }
+    @include breakpoint-md {
+      @include font-title;
+      font-size: 1.5em;
+      line-height: $messaging-line-height;
+    }
+  }
+}
+
+.header-banner-background {
+  .header-banner {
+    background: url('../../assets/images/site/globe.png') right bottom no-repeat;
+    @include breakpoint-xs {
+      background-size: 150px;
+    }
+    @include breakpoint-sm {
+      background-size: 250px;
+    }
+    @include breakpoint-md {
+      background-size: 400px;
+    }
+  }
+}
+
+
+/*----------- COLORS ---------------*/
+
+.header-banner {
+  .message {
+    color: white; //background: red;
+  }
+}
+
+.header-banner-background {
+  background: $globe-color-left;
+  background: -webkit-linear-gradient(left, $globe-color-left, $globe-color-right);
+  background: -o-linear-gradient(right, $globe-color-left, $globe-color-right);
+  background: -moz-linear-gradient(right, $globe-color-left, $globe-color-right);
+  background: linear-gradient(to right, $globe-color-left, $globe-color-right);
+  .header-banner {
+    .message {
+      text-shadow: 1px 1px 4px #1c2c3f;
+    }
+  }
+}

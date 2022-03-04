@@ -1,0 +1,148 @@
+  @import 'variables';
+  html,
+  body {
+    font-family: $font-text;
+    color: $text-color;
+    font-weight: normal;
+    line-height: 1.8em;
+    -webkit-font-smoothing: antialiased;
+    @media only screen and (min-width: 318px) {
+      font-size: 14px;
+    }
+    @media only screen and (min-width: 368px) {
+      font-size: 14px;
+    }
+    @media only screen and (min-width: 760px) {
+      font-size: 14px;
+    }
+  }
+
+  /*---------------- Text --------------- */
+
+  $h1-size:1.5em;
+  $h2-size:1.1em;
+  $h3-size:1.1em;
+  $h4-size:.92em;
+  $xs-font-reduction-factor: .9;
+  div.page-title {
+    $page-title-size: $h1-size * 1.1;
+    @include breakpoint-xs {
+      font-size: $page-title-size * $xs-font-reduction-factor;
+    }
+    @include breakpoint-sm {
+      font-size: $page-title-size;
+    }
+    font-family: $font-title;
+  }
+
+  $xs-font-reduction-factor: .9;
+  h1 {
+    $h1-xs-size: $h1-size * $xs-font-reduction-factor;
+    @include breakpoint-xs {
+      font-size: $h1-xs-size;
+    }
+    @include breakpoint-sm {
+      font-size: $h1-size;
+    }
+    font-family: $font-title;
+    margin: 12px 0;
+  }
+
+  h2 {
+    $h2-xs-size: $h2-size * $xs-font-reduction-factor;
+    @include breakpoint-xs {
+      font-size: $h2-xs-size;
+    }
+    @include breakpoint-sm {
+      font-size: $h2-size;
+    }
+    margin-top:5px;
+    font-family: $font-text;
+    font-style: italic;
+    line-height: 1.5em;
+  }
+
+  h3 {
+    $h3-xs-size: $h3-size * $xs-font-reduction-factor;
+    @include breakpoint-xs {
+      font-size: $h3-xs-size;
+    }
+    @include breakpoint-sm {
+      font-size: $h3-size;
+    }
+    font-family: $font-subtitle;
+    margin: 0 0 12px 0;
+    line-height: 1.5em;
+  }
+
+  h4 {
+    $h4-xs-size: $h4-size * $xs-font-reduction-factor;
+    @include breakpoint-xs {
+      font-size: $h4-xs-size;
+    }
+    @include breakpoint-sm {
+      font-size: $h4-size;
+    }
+    font-family: $font-subtitle;
+    text-transform: uppercase;
+  }
+
+  /*---------------- Variants --------------- */
+
+  .text {
+    color: $text-color;
+  }
+
+  strong {
+    font-weight: 500;
+  }
+
+  p {
+    padding: 4px 0;
+    span {
+      display: inline-block !important;
+    }
+  }
+
+  li {
+    padding: 4px 0;
+  }
+
+  /*-------------- LINKS -----------------*/
+
+  a {
+    color: $link-color;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: $link-hover-color;
+    text-decoration: none;
+  }
+
+  a:active {
+    text-decoration: none;
+  }
+
+  /*-------------- COLORS -----------------*/
+
+  .page-title,
+  h1,
+  h1 a {
+    color: $heading-color;
+    &:hover {
+      color: $heading-color-light;
+    }
+  }
+
+  h2 {
+    color: $heading-color-light;
+  }
+
+  h3 {
+    color: $heading-color-dark;
+  }
+
+  h4 {
+    color: $text-color-light;
+  }

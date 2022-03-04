@@ -1,0 +1,17 @@
+$logo-size: 130px;
+$navbar-height: 90px;
+
+.navbar-container {
+  position: relative;
+  width: 100%;
+  height: $navbar-height;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  // background: #203060;
+}
+
+.sustainable-logo {
+  width: $logo-size;
+}

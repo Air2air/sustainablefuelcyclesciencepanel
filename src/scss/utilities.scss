@@ -1,0 +1,15 @@
+/*----- Utility Mixins -------*/
+
+.flex-center {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.truncate {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: inline-block;
+    max-width: 100%;
+}

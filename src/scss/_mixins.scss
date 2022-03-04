@@ -1,0 +1,19 @@
+
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,400i|Roboto|Roboto+Condensed');
+
+$font-title:'Roboto Condensed', Arial, Helvetica, sans-serif;
+$font-subtitle:  'Roboto', Arial, Helvetica, sans-serif;
+$font-text:'Merriweather', serif;
+
+
+@mixin font-title {
+  font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif;
+}
+@mixin font-subtitle {
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+@mixin font-text {
+  font-family: 'Merriweather', serif;
+}
+
+$navbar-height:60px;

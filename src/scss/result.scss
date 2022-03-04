@@ -1,0 +1,68 @@
+@import 'variables';
+$result-thumb-height-xs: 120px;
+$result-thumb-height-sm: 190px;
+.result-panel {
+  padding: 0;
+  margin: 0;
+  .row {
+    padding: 0;
+    margin: 0;
+    height: auto;
+    text-align: left;
+    div {
+      height: auto;
+      box-sizing: border-box;
+    }
+    .text-section {
+      @include breakpoint-xs {
+        padding: 15px;
+      }
+      @include breakpoint-sm {
+        padding: 30px;
+      }
+      h3 {
+        span {
+          font-size: .9em;
+          opacity: .3;
+          margin-right:8px;
+        }
+      }
+      .text {
+        margin-top:10px;
+      }
+    }
+  }
+}
+
+
+/*-------- HOVER -----------*/
+
+.result-panel {
+  @include transition;
+  .line {
+    border-left: 5px solid white;
+  }
+  &:hover {
+      .line {
+    border-left: 5px solid $base-color;
+      }
+  }
+  margin-bottom:8px;
+}
+
+
+/*----------- COLORS -------------*/
+
+.result-panel:nth-of-type(odd) {
+  background: $panel-dark-color;
+  &:hover {
+    background: $panel-dark-hover-color;
+  }
+}
+
+.result-panel:nth-of-type(even) {
+  background: $panel-color;
+  &:hover {
+    background: $panel-hover-color;
+  }
+}

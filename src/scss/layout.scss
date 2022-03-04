@@ -1,0 +1,22 @@
+@import 'variables';
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin: 0 0 200px;
+  text-align: center;
+}
+
+.container-fluid,
+.container {
+  flex: 1 0 auto;
+}
+

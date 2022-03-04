@@ -1,0 +1,47 @@
+@import 'variables';
+
+/*---------------- Buttons --------------- */
+
+.btn {
+  @include font-subtitle;
+  @include transition;
+  font-size: 1em;
+  text-align: center!important;
+  border: none;
+  min-width: 150px;
+  max-width: 30%;
+  margin-top: 10px;
+  .fa {
+    @include transition;
+    font-size: .8em;
+    opacity: 0.6;
+    margin-right: 6px;
+  }
+  &:hover {
+    .fa {
+      opacity: 1;
+    }
+  }
+}
+
+.btn {
+  color: $white;
+  a {
+    color: $white;
+  }
+  &.btn-default {
+    background: $btn-default-color;
+    &:hover {
+      color: $white;
+      background: lighten($btn-default-color, 10%);
+      .fa {
+        color: $white;
+      }
+    }
+    &.active {
+      background: $black;
+      color: $white;
+      border: none;
+    }
+  }
+}
