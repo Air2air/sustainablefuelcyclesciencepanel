@@ -18,6 +18,8 @@ const App = () => (
         <Route path="/about" element={<About />} />
       </Routes>
     </Router>
+    <br />
+    <br />
   </>
 )
 export default App

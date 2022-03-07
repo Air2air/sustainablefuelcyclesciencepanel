@@ -1,10 +1,6 @@
-import documents from '../../data/documents.json'
+import Parser from 'html-react-parser'
+import members from '../../data/members.json'
 import './index.scss'
-
-const handleOpenPdf = pdfFile => {
-  const pdfPath = `/pdf/${pdfFile}`
-  window.open(pdfPath)
-}
 
 const About = () => (
   <div className="container">
@@ -13,31 +9,15 @@ const About = () => (
     </div>
     <div className="d-flex flex-column fade-in one" />
 
-    {documents.map(document => (
-      <div key={document.id} className="result-panel documents">
+    {members.map(member => (
+      <div key={member.id} className="result-panel members">
         <div className="row">
-          <div className="d-flex flex-column text-section">
-            <h4>
-              <span className="fa fa-clock-o" /> {document.date}
-            </h4>
+          <div className="col-12 d-flex flex-column text-section">
             <h1>
-              <a href={document.docLink} target="_new">
-                {document.title}
-              </a>
+              {member.memberFirst} {member.memberLast}
             </h1>
-            <h2>To : {document.recipientOrg}</h2>
-            <h3>{document.recipientName}</h3>
-            <h2>From : {document.authorOrg}</h2>
-            <h3>{document.authorName}</h3>
-            <div className="text">{document.docDescription}</div>
-            <button
-              className="btn btn-default"
-              type="button"
-              onClick={() => handleOpenPdf(document.docLink)}
-              target="_new"
-            >
-              View {document.category}
-            </button>
+            <h2>{member.memberOrg}</h2>
+            <div className="text">{Parser(member.memberBio)}</div>
           </div>
         </div>
       </div>

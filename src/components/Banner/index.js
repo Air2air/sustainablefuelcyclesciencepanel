@@ -5,7 +5,7 @@ const Banner = () => (
     <div className="d-flex flex-row">
       <div className="col header-banner d-flex align-items-center text-center">
         <div className="message fade-in four d-flex text-center">
-          Advancing nuclear energy's security, environmental and economic
+          Advancing nuclear energy&apos;s security, environmental and economic
           benefits for a sustainable future.
         </div>
       </div>
