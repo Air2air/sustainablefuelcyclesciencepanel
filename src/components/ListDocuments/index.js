@@ -1,3 +1,4 @@
+import Parser from 'html-react-parser'
 import documents from '../../data/documents.json'
 import './index.scss'
 
@@ -29,7 +30,7 @@ const ListDocuments = () => (
             <h3>{document.recipientName}</h3>
             <h2>From : {document.authorOrg}</h2>
             <h3>{document.authorName}</h3>
-            <div className="text">{document.docDescription}</div>
+            <div className="text">{Parser(document.docDescription)}</div>
             <button
               className="btn btn-default"
               type="button"
