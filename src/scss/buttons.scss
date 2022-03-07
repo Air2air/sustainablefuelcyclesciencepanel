@@ -3,7 +3,7 @@
 /*---------------- Buttons --------------- */
 
 .btn {
-  @include font-subtitle;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
   @include transition;
   font-size: 1em;
   text-align: center!important;

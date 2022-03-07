@@ -7,7 +7,7 @@ const NavBar = () => (
   <>
     <div className="container-fluid outer">
       <div className="container inner">
-        <img fluid className="header-logo" src={logo} />
+        <img className="header-logo" src={logo} alt="logo" />
         {/* <Link className="nav-link" to="/homepage" />
           <Link className="nav-link" to="/documents" />
           <Link className="nav-link" to="/contact" />
