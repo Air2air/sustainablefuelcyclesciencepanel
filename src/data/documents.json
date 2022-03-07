@@ -1,5 +1,6 @@
 [
 	{
+		"id": 39,
 		"title": "Science Panel Response to DOE RFI",
 		"date": "March 3, 2022",
 		"category": "Letter",
@@ -12,6 +13,7 @@
 		"docLink": "2022-03-03-Petry_DOE.pdf"
 	},
 	{
+		"id": 38,
 		"title": "Science Panel Letter to Governor Sisolak, State of Nevada",
 		"date": "November 11, 2019",
 		"category": "Letter",
@@ -24,6 +26,7 @@
 		"docLink": "2019-11-11-nv-cong.pdf"
 	},
 	{
+		"id": 37,
 		"title": "Science Panel Letter to Majority Leader McConnell, United States Senate",
 		"date": "August 26, 2019",
 		"category": "Letter",
@@ -36,6 +39,7 @@
 		"docLink": "2019-08-26-ltr-mcconnell.pdf"
 	},
 	{
+		"id": 36,
 		"title": "Science Panel Letter to Congressional Leadership, Subcommittees on Appropriations, Energy & Water Development and Related Agencies",
 		"date": "April 10, 2019",
 		"category": "Letter",
@@ -48,6 +52,7 @@
 		"docLink": "2019-04-10-north-submitted-testimony.pdf"
 	},
 	{
+		"id": 35,
 		"title": "Science Panel Letter To The Honorable Marcy Kaptur",
 		"date": "April 3, 2019",
 		"category": "Letter",
@@ -60,6 +65,7 @@
 		"docLink": "2019-04-03-science-panel-ltr-kaptur.pdf"
 	},
 	{
+		"id": 34,
 		"title": "Science Panel Letter To Subcommittee on Energy & Water Development and Related Agencies, House Appropriations Committee",
 		"date": "December 1, 2017",
 		"category": "Letter",
@@ -72,6 +78,7 @@
 		"docLink": "2017-12-01-letter-simpson.pdf"
 	},
 	{
+		"id": 33,
 		"title": "Science Panel Letter To Subcommittee on Energy & Water Development and Related Agencies, House Appropriations Committee",
 		"date": "December 1, 2017",
 		"category": "Letter",
@@ -84,6 +91,7 @@
 		"docLink": "2017-12-01-letter-kaptur.pdf"
 	},
 	{
+		"id": 32,
 		"title": "Science Panel Letter To Senate Energy & Natural Resources Committee ",
 		"date": "December 1, 2017",
 		"category": "Letter",
@@ -96,6 +104,7 @@
 		"docLink": "2017-12-01-letter-murkowski.pdf"
 	},
 	{
+		"id": 31,
 		"title": "Science Panel Letter To Senate Energy & Natural Resources Committee ",
 		"date": "December 1, 2017",
 		"category": "Letter",
@@ -108,6 +117,7 @@
 		"docLink": "2017-12-01-letter-cantwell.pdf"
 	},
 	{
+		"id": 30,
 		"title": "Science Panel Letter To Subcommittee for Energy & Water Development of Senate Appropriations Committee",
 		"date": "December 1, 2017",
 		"category": "Letter",
@@ -120,6 +130,7 @@
 		"docLink": "2017-12-01-letter-alexander.pdf"
 	},
 	{
+		"id": 29,
 		"title": "Science Panel Letter To Subcommittee for Energy & Water Development of Senate Appropriations Committee",
 		"date": "December 1, 2017",
 		"category": "Letter",
@@ -132,6 +143,7 @@
 		"docLink": "2017-12-01-letter-feinstein.pdf"
 	},
 	{
+		"id": 28,
 		"title": "Science Panel Letter To Governor Perry Recommending a Nuclear Waste Path Forward",
 		"date": "November 14, 2017",
 		"category": "Letter",
@@ -144,6 +156,7 @@
 		"docLink": "2017-11-14-letter-perry.pdf"
 	},
 	{
+		"id": 27,
 		"title": "Science Panel Letter To Governor Perry",
 		"date": "January 23, 2017",
 		"category": "Letter",
@@ -156,6 +169,7 @@
 		"docLink": "2017-01-23-letter-perry.pdf"
 	},
 	{
+		"id": 26,
 		"title": "Letter Response to IPC",
 		"date": "July 28, 2016",
 		"category": "Letter",
@@ -168,6 +182,7 @@
 		"docLink": "2016-07-28-letter-response-ipc.pdf"
 	},
 	{
+		"id": 25,
 		"title": "Letter to NRC",
 		"date": "November 18, 2015",
 		"category": "Letter",
@@ -180,6 +195,7 @@
 		"docLink": "2015-11-18-letter-blade.pdf"
 	},
 	{
+		"id": 24,
 		"title": "Letter to Secretary Moniz, Oct. 2014",
 		"date": "October 16, 2014",
 		"category": "Letter",
@@ -192,6 +208,7 @@
 		"docLink": "2014-10-16-letter-moniz.pdf"
 	},
 	{
+		"id": 23,
 		"title": "Letter to Secretary Moniz, March 2014",
 		"date": "March 17, 2014",
 		"category": "Letter",
@@ -204,6 +221,7 @@
 		"docLink": "2014-03-17-letter-moniz.pdf"
 	},
 	{
+		"id": 22,
 		"title": "Letter to Secretary Moniz, 2013",
 		"date": "May 23, 2013",
 		"category": "Letter",
@@ -216,6 +234,7 @@
 		"docLink": "2013-05-23-letter-moniz.pdf"
 	},
 	{
+		"id": 21,
 		"title": "Science Panel Comments on the Draft Nuclear Waste Administration Act of 2013",
 		"date": "May 22, 2013",
 		"category": "Letter",
@@ -228,6 +247,7 @@
 		"docLink": "2013-05-22-letter-senr.pdf"
 	},
 	{
+		"id": 20,
 		"title": "Letter to Director McConnell",
 		"date": "January 2, 2013",
 		"category": "Letter",
@@ -240,6 +260,7 @@
 		"docLink": "2013-01-02-letter-mcconnell.pdf"
 	},
 	{
+		"id": 19,
 		"title": "Blue Ribbon Commission Report: Status of Relevant Nuclear Regulatory Commission Activities",
 		"date": "March 13, 2012",
 		"category": "Committee Report",
@@ -252,6 +273,7 @@
 		"docLink": "2012-03-13-committee-nrc-brc.pdf"
 	},
 	{
+		"id": 18,
 		"title": "Letter to Office of Nuclear Material Safety and Safeguards, NRC",
 		"date": "February 17, 2012",
 		"category": "Letter",
@@ -264,6 +286,7 @@
 		"docLink": "2012-02-17-letter-pineda.pdf"
 	},
 	{
+		"id": 17,
 		"title": "Blue Ribbon Commission Report to the Secretary of Energy",
 		"date": "January 01, 2012",
 		"category": "Press Report",
@@ -276,6 +299,7 @@
 		"docLink": "2012-01-01-commission-brc-report.pdf"
 	},
 	{
+		"id": 16,
 		"title": "Witnesses Highlight Missed Opportunity in Blue Ribbon Review of Nuclear Storage Options",
 		"date": "October 27, 2011",
 		"category": "Press Report",
@@ -288,6 +312,7 @@
 		"docLink": "2011-10-27-press-witnesses.pdf"
 	},
 	{
+		"id": 15,
 		"title": "Subcommittee on Investigations & Oversight Joint Hearing with Subcommittee on Energy & Environment",
 		"date": "October 27, 2011",
 		"category": "Committee Report",
@@ -300,6 +325,7 @@
 		"docLink": "2011-10-27-committee-house-science.pdf"
 	},
 	{
+		"id": 14,
 		"title": "Letter to Blue Ribbon Commission",
 		"date": "September 29, 2011",
 		"category": "Letter",
@@ -312,6 +338,7 @@
 		"docLink": "2011-09-29-letter-brc.pdf"
 	},
 	{
+		"id": 13,
 		"title": "26 Organizations Call for Resumption of Yucca Mountain Review",
 		"date": "September 15, 2011",
 		"category": "Press Report",
@@ -324,6 +351,7 @@
 		"docLink": "2011-09-15-press-yucca-funding.pdf"
 	},
 	{
+		"id": 12,
 		"title": "26 Organizations Call for Resumption of Yucca Mountain Review",
 		"date": "September 15, 2011",
 		"category": "Press Report",
@@ -336,6 +364,7 @@
 		"docLink": "2011-09-15-press-yucca-funding.pdf"
 	},
 	{
+		"id": 11,
 		"title": "Letter to US Senate",
 		"date": "September 15, 2011",
 		"category": "Letter",
@@ -348,6 +377,7 @@
 		"docLink": "2011-09-15-letter-senate.pdf"
 	},
 	{
+		"id": 10,
 		"title": "Letter to Blue Ribbon Commission",
 		"date": "June 29, 2011",
 		"category": "Letter",
@@ -360,6 +390,7 @@
 		"docLink": "2011-06-29-letter-brc.pdf"
 	},
 	{
+		"id": 9,
 		"title": "Letter to Blue Ribbon Commission",
 		"date": "May 26, 2011",
 		"category": "Letter",
@@ -372,6 +403,7 @@
 		"docLink": "2011-05-26-letter-brc.pdf"
 	},
 	{
+		"id": 8,
 		"title": "Ferguson et al, v. Barack Obama et al Reply brief",
 		"date": "January 18, 2011",
 		"category": "Legal Document",
@@ -384,6 +416,7 @@
 		"docLink": "2011-01-18-legal-1288485.pdf"
 	},
 	{
+		"id": 7,
 		"title": "Ferguson et al, v. Barack Obama et al",
 		"date": "January 13, 2011",
 		"category": "Legal Document",
@@ -396,6 +429,7 @@
 		"docLink": "2011-01-03-legal-1285944.pdf"
 	},
 	{
+		"id": 6,
 		"title": "Letter to Chairman Jaczko",
 		"date": "October 14, 2010",
 		"category": "Letter",
@@ -408,6 +442,7 @@
 		"docLink": "2010-10-14-letter-jaczko.pdf"
 	},
 	{
+		"id": 5,
 		"title": "Letter to Blue Ribbon Commission",
 		"date": "April 26, 2010",
 		"category": "Letter",
@@ -420,6 +455,7 @@
 		"docLink": "2010-04-26-letter-brc.pdf"
 	},
 	{
+		"id": 4,
 		"title": "Letter to Secretary Chu",
 		"date": "November 18, 2009",
 		"category": "Letter",
@@ -432,6 +468,7 @@
 		"docLink": "2009-11-18-letter-chu.pdf"
 	},
 	{
+		"id": 3,
 		"title": "Letter to Director Holdren",
 		"date": "September 9, 2009",
 		"category": "Letter",
@@ -444,6 +481,7 @@
 		"docLink": "2009-09-09-letter-holdren.pdf"
 	},
 	{
+		"id": 2,
 		"title": "Excerpts, House Appropriations Committee Report FY2010 Energy and Water Development",
 		"date": "September 27, 1987",
 		"category": "Report",
@@ -456,6 +494,7 @@
 		"docLink": "2009-07-08-press-house-appropriations.pdf"
 	},
 	{
+		"id": 1,
 		"title": "Deep boreholes - An alternative for final disposal of spent nuclear fuel?",
 		"date": "January 1, 2007",
 		"category": "Report",
@@ -468,6 +507,7 @@
 		"docLink": "2007-01-01-report-kasam.pdf"
 	},
 	{
+		"id": 0,
 		"title": "A Multiattribute Utility Analysis of Alternative Sites for the Disposal of Nuclear Waste",
 		"date": "September 27, 1987",
 		"category": "Paper",

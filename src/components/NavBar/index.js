@@ -1,6 +1,5 @@
 import {Link} from 'react-router-dom'
-import logo from '../../assets/images/site/logo-header.svg'
-
+import logo from '../../assets/images/logo-header.svg'
 import './index.scss'
 
 const NavBar = () => (
@@ -8,10 +7,15 @@ const NavBar = () => (
     <div className="container-fluid outer">
       <div className="container inner">
         <img className="header-logo" src={logo} alt="logo" />
-        {/* <Link className="nav-link" to="/homepage" />
-          <Link className="nav-link" to="/documents" />
-          <Link className="nav-link" to="/contact" />
-          <Link className="nav-link" to="/about" /> */}
+        <Link className="nav-link" to="/homepage">
+          Home
+        </Link>
+        <Link className="nav-link" to="/about">
+          About
+        </Link>
+        <Link className="nav-link" to="/contact">
+          Contact
+        </Link>
       </div>
     </div>
   </>

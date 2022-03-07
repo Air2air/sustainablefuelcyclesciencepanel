@@ -60,7 +60,7 @@ $globe-color-right: lighten($base-color, 30%);
 
 .header-banner-background {
   .header-banner {
-    background: url('../../assets/images/site/globe.png') right bottom no-repeat;
+    background: url('../../assets/images/globe.png') right bottom no-repeat;
     @include breakpoint-xs {
       background-size: 150px;
     }

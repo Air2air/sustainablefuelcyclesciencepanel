@@ -1,22 +1,25 @@
 @import '../../scss/variables';
-$font-navbar:  'Roboto Condensed', Arial, Helvetica, sans-serif;
+$font-navbar: 'Roboto Condensed', Arial, Helvetica, sans-serif;
 $navbar-height: 70px;
 .outer {
   height: $navbar-height;
   position: relative;
   margin: 0;
   .inner {
+    width: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     height: $navbar-height;
     .header-logo {
       width: 200px;
     }
     a {
+      font-family: $font-navbar;
+      font-size: 1.4em;
       height: $navbar-height;
       line-height: $navbar-height * 1.3;
-      padding: 0;
+      padding: 0 30px;
     }
   }
 }
@@ -40,3 +43,15 @@ $text-navbar: white;
     }
   }
 }
+
+/*---------- Colors-----------*/
+
+// .outer {
+//   background: red;
+//   .inner {
+//     background: gold;
+//     a.nav-link {
+//       background: blue;
+//     }
+//   }
+// }
